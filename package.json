@@ -1,0 +1,34 @@
+{
+  "name": "friendly-reminder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A friendly reminder which remind you that its time to release !",
+  "author": "F Martino <florence.martino.fm@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/Florencemartino/friendly-reminder.git",
+  "homepage": "https://github.com/Florencemartino/friendly-reminder",
+  "bugs": "https://github.com/Florencemartino/friendly-reminder/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^10.9.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "nock": "^13.0.4",
+    "smee-client": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
