@@ -1,13 +1,13 @@
 {
   "env": {
     "PRIVATE_KEY": {
-      "description": "the private key you downloaded when creating the GitHub Integration"
+      "description": "$(cat friendly-release-reminder.2020-11-02.private-key.pem)"
     },
-    "INTEGRATION_ID": {
-      "description": "the ID of your GitHub Integration"
+    "APP_ID": {
+      "description": "aaa"
     },
     "WEBHOOK_SECRET": {
-      "description": "the secret configured for your GitHub Integration"
+      "description": "bbb"
     }
   }
 }
