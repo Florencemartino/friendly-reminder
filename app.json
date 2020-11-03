@@ -4,7 +4,7 @@
       "description": "$(cat friendly-release-reminder.2020-11-02.private-key.pem)"
     },
     "APP_ID": {
-      "description": "aaa"
+      "description": "87203"
     },
     "WEBHOOK_SECRET": {
       "description": "bbb"
