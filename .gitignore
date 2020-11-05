@@ -1,5 +1,0 @@
-node_modules
-.env
-private-key.pem
-package-lock.json
-.DS_Store
